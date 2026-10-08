@@ -4,7 +4,7 @@
 
 Table: Weather
 
-```postgresql
+```sql
 Create table If Not Exists Weather (id int, recordDate date, temperature int)
 ```
 
@@ -16,7 +16,7 @@ Return the result table in any order.
 
 ### Solution
 
-```postgresql
+```sql
 SELECT current_weather.id
 FROM weather AS current_weather
 WHERE current_weather.temperature > (

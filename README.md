@@ -3,37 +3,45 @@
 This repository contains my solutions to several SQL LeetCode questions curated by user dgdg, including questions from LeetCode's SQL 50 study plan. The goal of the repository is to document my progress learning SQL and to prepare for interviews for data analyst/business analyst positions. Each question will contain the problem statement, my solution, notes on my thought process while solving the problem, and notes on what to improve, change and/or learn. All solutions are written in PostgreSQL. 
 
 ### Question List
-Each item contains the problem name, the difficulty of the problem listed on LeetCode and the percentage of accepted solutions to the problem at the time I solved the problem.
 
-1. Combine Two Tables (easy) (80.1%)
-2. Second Highest Salary (medium) (48.6%)
-3. Nth Highest Salary (medium) (40.4%)
-4. Rank Scores (medium) (69%)
-5. Employees Earning More Than Their Managers (easy) (73.9%)
-6. Duplicate Emails (easy) (74.5%)
-7. Customers who Never Order (easy) (72.5%)
-8. Department Highest Salary (easy) (59.8%)
-9. Delete Duplicate Emails (easy) (67%)
-10. Rising Temperature (easy) (52.3%)
-11. Game Play Analysis I (easy) (76.8%)
-12. Game Play Analysis IV (medium) (42.7%)
-13. Managers with at Least 5 Direct Reports (Medium) (49.7%)
-14. Employee Bonus (easy) (78.2%)
-15. Find Customer Referee (easy) (73.7%)
-16. Investments in 2016 (Medium) (52%)
-17. Customer Placing the Largest Number of Orders (easy) (64.9%)
-18. Big Countries (easy) (68.9%)
-19. Classes with at Least 5 Students (easy) (65.1%)
-20. Sales Person (easy) (66.6%)
-21. Triangle Judgement (easy) (75.4%)
-22. Biggest Single Number (easy) (72.4%)
-23. Not Boring Movies (easy) (75.3%)
-24. Swap Sex of Employees (easy) (85%)
-25. Actors and Directors who Cooperated at Least Three Times (easy) (71.5%)
-26. Product Sales Analysis I (easy) (86.3%)
-27. Project Employees I (easy) (67.5%)
-28. Sales Analysis III (easy) (48.5%)
-29. User Activity for the Past 30 Days I (easy) (51.8%)
-30. Article Views I (easy) (76.9%)
-31. Reformat Department Table (easy) (76.5%)
-32. Queries Quality and Percentage (easy) (55.2%)
+Each item contains the problem name, the difficulty of the problem listed on LeetCode, the percentage of accepted solutions to the problem at the time I solved the problem, and the overarching topic the problem addresses.
+
+| # | Problem | Difficulty | Acceptance Rate | Topic |
+| --- | --- | --- | --- | ----|
+| 1. | Combine Two Tables | Easy | 80.1% | Joins |
+| 2. | Second Highest Salary | Medium | 48.6% | Sorting and Grouping |
+| 3. | Nth Highest Salary | Medium | 40.4% | Sorting and Grouping |
+| 4. | Rank Scores | Medium | 69% | Sorting and Grouping |
+| 5. | Employees Earning More Than Their Managers | Easy | 73.9% | Joins |
+| 6. | Duplicate Emails | Easy | 74.5% | Sorting and Grouping |
+| 7. | Customers who Never Order | Easy | 72.5% | Subquery |
+| 8. | Department Highest Salary | Easy | 59.8% | Subquery |
+| 9. | Delete Duplicate Emails | Easy | 67% | Subquery |
+| 10. | Rising Temperature | Easy | 52.3% | Subquery |
+| 11. | Game Play Analysis I | Easy | 76.8% | Sorting and Grouping |
+| 12. | Game Play Analysis IV | Medium | 42.7% | Joins |
+| 13. | Managers with at Least 5 Direct Reports | Medium | 49.7% | Subquery |
+| 14. | Employee Bonus | Easy | 78.2% | Joins |
+| 15. | Find Customer Referee | Easy | 73.7% | Select |
+| 16. | Investments in 2016 | Medium | (52%) |  |
+| 17. | Customer Placing the Largest Number of Orders | Easy | 64.9% |  |
+| 18. | Big Countries | Easy | 68.9% |  |
+| 19. | Classes with at Least 5 Students | Easy | 65.1% |  |
+| 20. | Sales Person | Easy | 66.6% |  |
+| 21. | Triangle Judgement | Easy | 75.4% |  |
+| 22. | Biggest Single Number | Easy | 72.4% |  |
+| 23. | Not Boring Movies | Easy | 75.3% |  |
+| 24. | Swap Sex of Employees | Easy | 85% |  |
+| 25. | Actors and Directors who Cooperated at Least Three Times | Easy | 71.5% |  |
+| 26. | Product Sales Analysis I | Easy | 86.3% |  |
+| 27. | Project Employees I | Easy | 67.5% |  |
+| 28. | Sales Analysis III | Easy | 48.5% |  |
+| 29. | User Activity for the Past 30 Days I | Easy | 51.8% |  |
+| 30. | Article Views I | Easy | 76.9% |  |
+| 31. | Reformat Department Table | Easy | 76.5% |  |
+| 32. | Queries Quality and Percentage | Easy | 55.2% |  |
+| 33. | Recyclable and Low Fat Products | Easy | 88.7% |  |
+| 34. | Invalid Tweets | Easy | 85.3% |  |
+| 35. | Replace Employee ID With The Unique Identifier | Easy | 83.9% |  |
+| 36. | Customer Who Visited But Did Not Make Any Transactions | Easy | 68.8% |  | 
+| 37. | Department Top Three Salaries | Hard | 62.0% |  |

@@ -4,7 +4,7 @@
 
 Table: Person
 
-```postgresql
+```sql
 Create table If Not Exists Person (Id int, Email varchar(255))
 ```
 
@@ -15,7 +15,7 @@ Write a solution to delete all duplicate emails, keeping only one unique email w
 
 ### Solution
 
-```postgresql
+```sql
 DELETE
 FROM person
 WHERE id NOT IN (

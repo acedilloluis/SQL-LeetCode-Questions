@@ -2,7 +2,7 @@
 
 ### Problem Statement
 
-```postgresql
+```sql
 Create table If Not Exists Employee (id int, name varchar(255), salary int, managerId int)
 ```
 
@@ -15,7 +15,7 @@ Return the result table in any order.
 
 ### Solution
 
-```postgresql
+```sql
 SELECT employee.name as employee
 FROM employee
 INNER JOIN employee AS manager
@@ -31,7 +31,7 @@ For every employee A, the query joins the row data of the employee with the same
 
 #### Other Solutions
 
-```postgresql
+```sql
 SELECT name AS employee
 FROM employee
 WHERE salary > (

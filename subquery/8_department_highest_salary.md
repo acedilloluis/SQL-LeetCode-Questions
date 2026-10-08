@@ -4,7 +4,7 @@
 
 Table: Employee
 
-```postgresql
+```sql
 Create table If Not Exists Employee (id int, name varchar(255), salary int, departmentId int)
 ```
 
@@ -13,7 +13,7 @@ departmentId is a foreign key (reference columns) of the ID from the Department 
 
 Table: Department
 
-```postgresql
+```sql
 Create table If Not Exists Department (id int, name varchar(255))
 ```
 
@@ -25,7 +25,7 @@ Return the result table in any order.
 
 ### Solution
 
-```postgresql
+```sql
 SELECT 
     department.name AS department, 
     employee.name AS employee, 

@@ -4,7 +4,7 @@
 
 Table: Customers
 
-```postgresql
+```sql
 Create table If Not Exists Customers (id int, name varchar(255))
 ```
 
@@ -13,7 +13,7 @@ Each row of this table indicates the ID and name of a customer.
 
 Table: Orders
 
-```postgresql
+```sql
 Create table If Not Exists Orders (id int, customerId int)
 ```
 
@@ -26,7 +26,7 @@ Return the result table in any order.
 
 ### Solution
 
-```postgresql
+```sql
 SELECT name AS customers
 FROM customers
 WHERE id NOT IN (
@@ -43,7 +43,7 @@ For every row in the customers table, the query will run a subquery to check whe
 
 #### Other Solutions
 
-```postgresql
+```sql
 SELECT customers.name AS customers
 FROM customers
 LEFT JOIN orders

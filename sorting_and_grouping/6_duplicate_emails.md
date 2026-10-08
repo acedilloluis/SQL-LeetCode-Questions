@@ -4,7 +4,7 @@
 
 Table: Person
 
-```postgresql
+```sql
 Create table If Not Exists Person (id int, email varchar(255))
 ```
 
@@ -17,7 +17,7 @@ Return the result table in any order.
 
 ### Solution
 
-```postgresql
+```sql
 SELECT email
 FROM person
 GROUP BY email
@@ -32,7 +32,7 @@ Query will first group all the emails. Then it will count the number of times ea
 
 #### Other Solutions
 
-```postgresql
+```sql
 SELECT DISTINCT person.email AS email
 FROM person
 LEFT JOIN person AS duplicate
