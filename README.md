@@ -28,11 +28,11 @@ Each item contains the problem name, the difficulty of the problem listed on Lee
 | 18. | Big Countries | Easy | 68.9% | Select |
 | 19. | Classes with at Least 5 Students | Easy | 65.1% | Sorting and Grouping |
 | 20. | Sales Person | Easy | 66.6% | Joins |
-| 21. | Triangle Judgement | Easy | 75.4% |  |
-| 22. | Biggest Single Number | Easy | 72.4% |  |
-| 23. | Not Boring Movies | Easy | 75.3% |  |
-| 24. | Swap Sex of Employees | Easy | 85% |  |
-| 25. | Actors and Directors who Cooperated at Least Three Times | Easy | 71.5% |  |
+| 21. | Triangle Judgement | Easy | 75.4% | Joins |
+| 22. | Biggest Single Number | Easy | 72.4% | Subquery |
+| 23. | Not Boring Movies | Easy | 75.3% | Select |
+| 24. | Swap Sex of Employees | Easy | 85% | Update/Misc |
+| 25. | Actors and Directors who Cooperated at Least Three Times | Easy | 71.5% | Sorting and Grouping |
 | 26. | Product Sales Analysis I | Easy | 86.3% |  |
 | 27. | Project Employees I | Easy | 67.5% |  |
 | 28. | Sales Analysis III | Easy | 48.5% |  |
